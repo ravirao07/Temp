@@ -25,10 +25,10 @@ function App() {
     <div className="App">
      <div className='iner'>
      <div className='iner-box'>
-     <h1 className ={` text ${color}`}>{value}</h1>
+     <h1 className ={`rounded-circle ${color}`}>{value}°C</h1>
      </div>
-      <button onClick={()=>incre()}>+</button>
-      <button onClick={()=>decre()}>-</button>
+      <button className='btn btn-primary  ' onClick={()=>incre()}>+</button>
+      <button className='btn btn-warning' onClick={()=>decre()}>-</button>
      </div>
     </div>
   );

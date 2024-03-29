@@ -43,7 +43,7 @@
   border: 2px solid black;
   border-radius: 20px;
   margin: auto;
-  margin-top: 50px;
+  margin-top: 100px;
   padding: 50px;
 }
 .iner-box
@@ -54,13 +54,18 @@ button
 {
   padding: 5px 10px;
 }
-.text
+.btn 
+{
+  margin: 0px 8px;
+}
+.rounded-circle
 {
   width: 60%;
+  height: 70px;
   margin: auto;
   margin-top: 20px;
   border: 2px solid black;
-  border-radius: 15px;
+  
 }
 .hot{
   background-color: orangered;
