@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+
 }
 
 .App-logo {
@@ -38,7 +39,6 @@
 }
 .iner
 {
-  /* background-color: #61dafb; */
   width: 25%;
   border: 2px solid black;
   border-radius: 20px;
@@ -74,3 +74,7 @@ button
 {
   background-color: skyblue;
 }
+h2{
+  margin-top: -20px;
+}
+

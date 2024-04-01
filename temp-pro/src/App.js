@@ -3,7 +3,7 @@ import React,{useState} from 'react'
 import './App.css';
 function App() {
   const [value,setValue] = useState(10)
-  const [color,setcolor] = useState("cold")
+  const [color,setcolor] = useState('cold')
   const incre = ()=>{
    const newvalue = value +1;
    setValue(newvalue);
@@ -25,6 +25,7 @@ function App() {
     <div className="App">
      <div className='iner'>
      <div className='iner-box'>
+      <h2>Tempreture Count</h2>
      <h1 className ={`rounded-circle ${color}`}>{value}°C</h1>
      </div>
       <button className='btn btn-primary  ' onClick={()=>incre()}>+</button>
